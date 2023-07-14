@@ -49,6 +49,10 @@ nav a{
   border:0;
   padding: 15px 30px;
 }
+.primary-btn:hover{
+    background-color: lightgrey;
+    color: #181818;
+}
 /*header section styles*/
 .header{
     background-color: #FFF8F3;
@@ -156,4 +160,30 @@ nav a{
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 30px;
+}
+.resume-container{
+     display: flex;
+     gap: 51px;
+}
+.resume-item-title{
+    font-size: 25px;
+    font-weight: 700;  
+
+}
+.resume-item-institue{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.resume-item-description{
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
