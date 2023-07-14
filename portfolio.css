@@ -164,7 +164,7 @@ nav a{
 }
 .resume-container{
      display: flex;
-     gap: 51px;
+     gap: 53px;
 }
 .resume-item-title{
     font-size: 25px;
@@ -186,4 +186,42 @@ nav a{
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+/* footer styles */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 105px;
+    gap:100px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-links{
+    text-align: center;
+}
+.social-links a{
+    margin-left: 20px;
+}
+.social-links img{
+    width: 24px;
+    height: 24px;
+}
+.contact{
+    text-align: center;
+}
+.contact input,textarea{
+    display: block;
+    margin-bottom: 24px;
+    margin-left: 30px;
+}
+.contact input[type=text], input[type=email], textarea{
+    padding:18px 35px;
+    color: #757575;
+    font-size: 16px;
+    border-radius: 5px;
+   background: #FFF;
+   border: 0;
+   width: 70%;
 }
